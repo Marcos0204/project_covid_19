@@ -6,7 +6,7 @@ import { Cards, Chart, CountryPicker } from './components';
 const App = () => {
     return (
         <div>
-            <h1>app</h1>
+            <h1>aspp</h1>
         </div>
     )
 }
