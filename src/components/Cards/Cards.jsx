@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import { Card, CardContent, Typography, Grid } from '@material-ui/core';
+import styles from './Cards.module.css';
 
-const Cards = () => {
+const Cards = ({data}) => {
+    console.log(data)
     return (
-        <div>
-            <h1>Cards</h1>
+        <div className={styles.container}>
+            
+            <Typography>cards</Typography>
         </div>
     )
 }

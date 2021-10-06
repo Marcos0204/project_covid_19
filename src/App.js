@@ -18,10 +18,10 @@ const App = () => {
             
         
     }, [])
-    console.log(data)
+    
     return (
         <div className={styles.container}>
-            <Cards/>
+            <Cards data={data}/>
             <Chart/>
             <CountryPicker/>
         </div>
